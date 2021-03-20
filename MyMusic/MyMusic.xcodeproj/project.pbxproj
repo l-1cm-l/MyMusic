@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84021CB426058A9000D8C343 /* ButtonImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84021CB326058A9000D8C343 /* ButtonImageView.swift */; };
 		843D5BF7260574CB00220DF0 /* MyMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843D5BF6260574CB00220DF0 /* MyMusicApp.swift */; };
 		843D5BF9260574CB00220DF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843D5BF8260574CB00220DF0 /* ContentView.swift */; };
 		843D5BFB260574CD00220DF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843D5BFA260574CD00220DF0 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84021CB326058A9000D8C343 /* ButtonImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonImageView.swift; sourceTree = "<group>"; };
 		843D5BF3260574CB00220DF0 /* MyMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843D5BF6260574CB00220DF0 /* MyMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMusicApp.swift; sourceTree = "<group>"; };
 		843D5BF8260574CB00220DF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				843D5C0626057C8500220DF0 /* SoundPlayer.swift */,
 				843D5BF6260574CB00220DF0 /* MyMusicApp.swift */,
+				84021CB326058A9000D8C343 /* ButtonImageView.swift */,
 				843D5BF8260574CB00220DF0 /* ContentView.swift */,
 				843D5BFA260574CD00220DF0 /* Assets.xcassets */,
 				843D5BFF260574CD00220DF0 /* Info.plist */,
@@ -143,6 +146,7 @@
 			files = (
 				843D5BF9260574CB00220DF0 /* ContentView.swift in Sources */,
 				843D5C0726057C8500220DF0 /* SoundPlayer.swift in Sources */,
+				84021CB426058A9000D8C343 /* ButtonImageView.swift in Sources */,
 				843D5BF7260574CB00220DF0 /* MyMusicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

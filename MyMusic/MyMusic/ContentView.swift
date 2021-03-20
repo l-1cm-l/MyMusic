@@ -22,15 +22,13 @@ struct ContentView: View {
                     //ボタンをタップした時のアクション
                     cymbalsoudPlayer.cymbalPlay()
                 }){
-                    Image("cymbal")
-                        .renderingMode(.original)
+                    ButtonImageView(imageName: "cymbal")
                 }
                 Button(action:{
                     //ボタンをタップした時のアクション
                     guitarsoudPlayer.guitarPlay()
                 }){
-                    Image("guitar")
-                        .renderingMode(.original)
+                    ButtonImageView(imageName: "guitar")
                 }
                 }
               }
