@@ -8,27 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    let cymbalsoudPlayer = SoundPlayer()
+    let guitarsoudPlayer = SoundPlayer()
     var body: some View {
         ZStack{
-            Image("backgroudnf")
+            Image("background")
                 .resizable()
                 .edgesIgnoringSafeArea(.all)
                 .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
-        }//ZStackここまで
+
             HStack{
                 Button(action:{
                     //ボタンをタップした時のアクション
+                    cymbalsoudPlayer.cymbalPlay()
                 }){
                     Image("cymbal")
                         .renderingMode(.original)
                 }
                 Button(action:{
                     //ボタンをタップした時のアクション
+                    guitarsoudPlayer.guitarPlay()
                 }){
                     Image("guitar")
                         .renderingMode(.original)
                 }
                 }
+              }
             }
         }
 
